@@ -68,7 +68,7 @@ interface ICallResponseSet
 	responses: ICard[];
 }
 
-export class Index
+export class CardCastApi
 {
 	private static paramsToQuery(params: any)
 	{

@@ -52,7 +52,7 @@ interface ICallResponseSet {
     calls: ICard[];
     responses: ICard[];
 }
-export declare class Index {
+export declare class CardCastApi {
     private static paramsToQuery;
     static doGet<T>(url: string, params?: any): Promise<T>;
     private static buildUrl;

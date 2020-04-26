@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("isomorphic_fetch");
-class Index {
+class CardCastApi {
     static paramsToQuery(params) {
         const kvps = Object.keys(params).map(k => `${k}=${params[k]}`).join("&");
         return `?${kvps}`;
@@ -55,4 +55,4 @@ class Index {
         return this.doGet(url);
     }
 }
-exports.Index = Index;
+exports.CardCastApi = CardCastApi;

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "es2018",
+      "dom"
+    ],
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "declaration": true,
+    "baseUrl": "server",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

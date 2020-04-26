@@ -1,0 +1,19 @@
+{
+  "name": "isomorphic-cardcast-api",
+  "version": "1.0.0",
+  "description": "An isomorphic library for hitting the CardCast API.",
+  "main": "index.js",
+  "repository": "https://github.com/jakelauer/isomorphic-cardcast-api",
+  "author": "Jake Lauer",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
